@@ -1,0 +1,49 @@
+.bodyOscuro{
+    background: linear-gradient(to bottom,rgb(0, 0, 0), 50%, rgb(255, 255, 255)), no-repeat;
+}
+.bodyLuz{
+    background: linear-gradient(to bottom,rgb(255, 255, 255), 70%, rgb(0, 0, 0)), no-repeat;
+}
+
+.table{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 6px;
+}
+
+
+
+.img{
+    object-fit: cover;
+    width: 35%;
+    border: 5px solid black;
+    border-radius: 6%;
+}
+.errorMensaje{
+    color: rgb(212, 3, 3);
+}
+.iconoscuro{
+    fill: rgb(0, 0, 0);
+    width: 7%;
+    height: auto;
+}
+
+.iconluz{
+    fill: rgb(255, 255, 255);
+    width: 7%;
+    height: auto;
+}
+.columna{
+    background-color: grey;
+}
+.pista{
+    color: grey;
+}
+.iconfooter{
+    width: 4%;
+    height: auto;
+    filter: brightness(0) invert(1);
+}
+.colorblanco{
+    color: white;
+}
+

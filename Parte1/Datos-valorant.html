@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body id="Cuerpo" class="bodyOscuro p-3 m-0 border-0 bd-example">
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">TorrencoWilliams</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active " aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Datos-valorant.html">Dastos Valorant</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-check-input" type="checkbox"  id="CheckOscuro" checked>
+              <label class="form-check-label" for="CheckOscuro">Modo Oscuro</label>
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container mt-3 text-center">
+
+        <div class="mb-3">
+          <input type="text" id="searchInput" class="form-control" placeholder="Buscar por nombre">
+        </div>
+<div id="tablaValorant" class="mt-2">
+  <table id="Tabla" class="table">
+    <thead class="fondo">
+      <tr >
+        <th scope="col">Nombre</th>
+        <th scope="col">Victorias</th>
+        <th scope="col">Partidas Jugadas</th>
+        <th scope="col">Rango</th>
+      </tr>
+    </thead>
+  </table>
+</div>
+
+<div class="mt-4">
+  <canvas id="valorantChart" width="400" height="200" aria-label="Gráfico de estadísticas de Valorant" role="img"></canvas>
+</div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <footer class="bg-dark text-white py-4 mt-2">
+        <div class="container">
+            <div class="row">
+             
+                <div class="col-md-4">
+                    <h5>Términos Legales</h5>
+                    <ul class="list-unstyled">
+                        <li>  <img src="file-ruled-fill.svg" class="iconfooter" alt="Icono de pulgar"><i class="bi bi-file-earmark-pdf-fill"></i> <a href="#" class="text-white"> Leer Términos</a></li>
+                    </ul>
+                </div>
+   
+          
+                <div class="col-md-4">
+                    <h5>Nuestras Redes</h5>
+                    <ul class="list-unstyled">
+                        <li> <img src="instagram.svg" class="iconfooter" alt="Icono de pulgar"><i class="bi bi-instagram"></i> <a href="#" class="text-white" target="_blank"> Instagram</a></li>
+                        <li><img src="facebook.svg" class="iconfooter" alt="Icono de pulgar"><i class="bi bi-facebook"></i> <a href="#" class="text-white" target="_blank"> Facebook</a></li>
+                        <li><img src="tiktok.svg" class="iconfooter" alt="Icono de pulgar"><i class="bi bi-tiktok"></i> <a href="#" class="text-white" target="_blank"> TikTok</a></li>
+                    </ul>
+                </div>
+   
+          
+                <div class="col-md-4">
+                    <h5>Trabaja con Nosotros</h5>
+                    <ul class="list-unstyled">
+                        <li><img src="eye-fill.svg" class="iconfooter" alt="Icono de pulgar"><i class="bi bi-briefcase-fill"></i> <a href="#" class="text-white">Ver Vacantes</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="Scripts_home.js"></script>
+    <script src="valorant_datos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</body>
+</html>
